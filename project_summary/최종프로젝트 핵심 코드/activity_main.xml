@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:id="@+id/camera_preview">
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_capture"
+            android:layout_gravity="center_vertical"
+            android:text="Capture">
+        </Button>
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/text_mn"
+            android:gravity="center"
+            android:text="가로 : 2 , 세로 : 2">
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_submit"
+            android:layout_gravity="center_vertical"
+            android:text="Submit">
+        </Button>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/captured_image"
+        android:layout_marginTop="15dp">
+
+    </ImageView>
+</androidx.appcompat.widget.LinearLayoutCompat>
