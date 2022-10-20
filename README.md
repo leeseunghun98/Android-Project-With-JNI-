@@ -5,7 +5,7 @@ Android application with Java Native Interface
 
 <img src="https://img.shields.io/badge/Java-F9AB00?style=for-the-badge&logo=Java&logoColor=white"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white"><img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=CMake&logoColor=white">
 
-## CMake와 JNI를 사용한 이유
+## CMake? JNI?
 
 FPGA Board에서 원활한 동작을 위해 즉, 다양한 운영체제에서 빌드하기 위해 이용
 
