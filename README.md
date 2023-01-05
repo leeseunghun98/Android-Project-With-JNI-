@@ -13,7 +13,7 @@ Android application with Java Native Interface
 
 FPGA Board에서 원활한 동작을 위해 즉, 다양한 운영체제에서 빌드하기 위해 이용
 
-JNI는 CMake가 C로 작성되기 때문에 이를 Application의 Java 코드와 함께 이용하기 위함
+JNI는 C로 작성된 Device Driver를 이용하기 위해 사용
 
 ## Content
 
@@ -27,10 +27,10 @@ FPGA Board를 이용한 퍼즐 게임 Application
 
 ![image](https://user-images.githubusercontent.com/78264248/196934583-a06aebef-2945-41ab-8840-4f4ecc66f3fd.png)
 
-7-Segment는 남은 기회를 뜻하며, 현재 36번의 기회가 남음, 현재 정답이 아닌 위치에 있는 퍼즐의 수 = 켜진 LED의 수 = 2
+7-Segment : 남은 기회(36회), 현재 틀린 퍼즐 수 = 켜진 LED의 수 = 2
 
 ![image](https://user-images.githubusercontent.com/78264248/196934668-94161b3f-76f1-49bb-b936-b152691dcc73.png)
 
-12회를 움직여 퍼즐을 완성, 켜진 LED의 수 = 0
+12회를 추가로 움직여 퍼즐 완성
 
 ![image](https://user-images.githubusercontent.com/78264248/196934758-e6761aa5-2506-4139-88c3-ee3f0317b704.png)
